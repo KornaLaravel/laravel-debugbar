@@ -116,7 +116,7 @@ class AiCollector extends DataCollector implements DataCollectorInterface, Rende
 
         return [
             'ai' => [
-                'icon' => 'magic',
+                'icon' => 'ai',
                 'widget' => $widget,
                 'map' => 'ai.runs',
                 'default' => '{}',

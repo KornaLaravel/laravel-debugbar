@@ -28,6 +28,6 @@
     "globals": "^16.5.0"
   },
   "dependencies": {
-    "@tabler/icons": "^3.36.0"
+    "@tabler/icons": "^3.44.0"
   }
 }

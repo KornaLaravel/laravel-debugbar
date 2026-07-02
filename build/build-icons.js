@@ -10,6 +10,7 @@ const __dirname = path.dirname(__filename);
 const icons = [
     // Data collector icons
     'archive',
+    'ai',
     'clipboard-text',
     'files',
     'lock',
