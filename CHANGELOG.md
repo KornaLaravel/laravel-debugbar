@@ -1,5 +1,29 @@
 # Changelog
 
+## v4.4.0 - 2026-07-04
+
+### Highlights:
+
+- New AI tab is enabled by default, when laravel/ai is installed
+- Set `DEBUGBAR_CAPTURE_STREAMED=true` to capture streamed responses when they finish
+
+### What's Changed
+
+* Fix method naming in debugbar usage examples by @erikn69 in https://github.com/fruitcake/laravel-debugbar/pull/2052
+* Add collector name to events on TimeCollectorProvider by @erikn69 in https://github.com/fruitcake/laravel-debugbar/pull/2054
+* Bump js-yaml from 4.1.1 to 4.3.0 by @dependabot[bot] in https://github.com/fruitcake/laravel-debugbar/pull/2059
+* Feature/add ai collector by @NielsSmits1 in https://github.com/fruitcake/laravel-debugbar/pull/2061
+* Feat capture streaming by @barryvdh in https://github.com/fruitcake/laravel-debugbar/pull/2062
+* Allow non-string messages in QueryCollector::addMessage by @lazerg in https://github.com/fruitcake/laravel-debugbar/pull/2060
+* Resolve component name instead of verifying snapshot by @barryvdh in https://github.com/fruitcake/laravel-debugbar/pull/2064
+
+### New Contributors
+
+* @NielsSmits1 made their first contribution in https://github.com/fruitcake/laravel-debugbar/pull/2061
+* @lazerg made their first contribution in https://github.com/fruitcake/laravel-debugbar/pull/2060
+
+**Full Changelog**: https://github.com/fruitcake/laravel-debugbar/compare/v4.3.0...v4.4.0
+
 ## v4.3.0 - 2026-06-04
 
 Debugbar now detects the CSP nonce when using Vite CSP or Spatie CSP
