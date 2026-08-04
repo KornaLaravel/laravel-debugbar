@@ -1,5 +1,22 @@
 # Changelog
 
+## v4.4.1 - 2026-08-04
+
+### What's Changed
+
+* Fix font size on query explain/rerun select by @ssw1cblarrion in https://github.com/fruitcake/laravel-debugbar/pull/2065
+* Fix font size on query explain/rerun popup table by @ssw1cblarrion in https://github.com/fruitcake/laravel-debugbar/pull/2066
+* Fix truncated nested Inertia props by @amrachraf6699 in https://github.com/fruitcake/laravel-debugbar/pull/2068
+* Add error handling for IP check in LaravelDebugbar by @erikn69 in https://github.com/fruitcake/laravel-debugbar/pull/2071
+* Bump brace-expansion, @antfu/eslint-config and eslint by @dependabot[bot] in https://github.com/fruitcake/laravel-debugbar/pull/2069
+* Return false when the client IP check fails in isStorageOpen by @lazerg in https://github.com/fruitcake/laravel-debugbar/pull/2074
+
+### New Contributors
+
+* @amrachraf6699 made their first contribution in https://github.com/fruitcake/laravel-debugbar/pull/2068
+
+**Full Changelog**: https://github.com/fruitcake/laravel-debugbar/compare/v4.4.0...v4.4.1
+
 ## v4.4.0 - 2026-07-04
 
 ### Highlights:
