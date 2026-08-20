@@ -1,5 +1,26 @@
 # Changelog
 
+## v4.4.2 - 2026-08-20
+
+### New
+
+`php artisan debugbar:install-skill` command to install skills when not using Laravel Boost
+
+### What's Changed
+
+* Link Livewire single- and multi-file components to their source by @hugomyb in https://github.com/fruitcake/laravel-debugbar/pull/2076
+* Bump postcss from 8.5.15 to 8.5.25 by @dependabot[bot] in https://github.com/fruitcake/laravel-debugbar/pull/2072
+* Allow explain queries with comments at the beginning by @sysdev34-wq in https://github.com/fruitcake/laravel-debugbar/pull/2075
+* Bump esbuild from 0.27.2 to 0.28.1 by @dependabot[bot] in https://github.com/fruitcake/laravel-debugbar/pull/2057
+* Update skills by @barryvdh in https://github.com/fruitcake/laravel-debugbar/pull/2077
+
+### New Contributors
+
+* @hugomyb made their first contribution in https://github.com/fruitcake/laravel-debugbar/pull/2076
+* @sysdev34-wq made their first contribution in https://github.com/fruitcake/laravel-debugbar/pull/2075
+
+**Full Changelog**: https://github.com/fruitcake/laravel-debugbar/compare/v4.4.1...v4.4.2
+
 ## v4.4.1 - 2026-08-04
 
 ### What's Changed
