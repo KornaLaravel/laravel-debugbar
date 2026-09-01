@@ -1,5 +1,16 @@
 # Changelog
 
+## v4.4.3 - 2026-09-01
+
+### What's Changed
+
+* Bring back view measuring by @sysdev34-wq in https://github.com/fruitcake/laravel-debugbar/pull/2058
+* Add waitForText for API ping in Debugbar test by @sysdev34-wq in https://github.com/fruitcake/laravel-debugbar/pull/2079
+* Update backtrace handling in DatabaseCollectorProvider by @erikn69 in https://github.com/fruitcake/laravel-debugbar/pull/2080
+* Stringify all model arguments in GateCollector by @lazerg in https://github.com/fruitcake/laravel-debugbar/pull/2082
+
+**Full Changelog**: https://github.com/fruitcake/laravel-debugbar/compare/v4.4.2...v4.4.3
+
 ## v4.4.2 - 2026-08-20
 
 ### New
